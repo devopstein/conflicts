@@ -11,13 +11,11 @@ def subtract(x, y):
 
 # This function multiplies two numbers
 def multiply(x, y):
-   #dummy implementation
-   return 1920
+   return x * y
 
 # This function divides two numbers
 def divide(x, y):
-   #dummy implementation
-   return 1920
+   return x / y
 
 print("Select operation.")
 print("1.Add")
