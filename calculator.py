@@ -5,6 +5,19 @@
 def add(x, y):
    return x + y
 
+# This function subtracts two numbers 
+def subtract(x, y):
+   return x - y
+
+# This function multiplies two numbers
+def multiply(x, y):
+   #dummy implementation
+   return 1920
+
+# This function divides two numbers
+def divide(x, y):
+   return x / y
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -19,5 +32,7 @@ num2 = int(input("Enter second number: "))
 
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
+if choice == '2':
+   print(num1,"-",num2,"=", subtract(num1,num2))   
 else:
    print("Invalid input ",choice)
